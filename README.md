@@ -6,16 +6,22 @@ Academic foundation spans IT, software and hardware troubleshooting, electronics
 - Information Technology Analyst	@ Digital Seva CSC, Thiruvambady, Kozhikode, Kerala, India -	Apr 2019 to Sep 2022
 
 Monitored and maintained the organization's IT infrastructure, including servers, networks, and workstations, to ensure optimal performance and uptime. 
+
 Investigated and resolved IT issues promptly, minimizing downtime and ensuring smooth operations. Developed effective troubleshooting procedures.
+
 Provided technical support to end-users, addressing hardware and software problems. Achieved a 95% customer satisfaction rate through efficient issue resolution and clear communication.
 
 - Assistant Professor @ College of Applied Science, Thiruvambady, Kozhikode, Kerala, India	- Jul 2018 to Mar 2019
-- Providing Lectures, demonstrations, hands-on lab sessions, group discussions, and multimedia presentations in Basic Electronics, Electronic Communication, Signal Processing, Data Communication, Digital Electronics.
--	Helped students to achieve target grades through continuous curricular support and motivation.
--	Developed multidisciplinary approaches to education, ensuring high-quality teaching, research and student experiences.
+
+Providing Lectures, demonstrations, hands-on lab sessions, group discussions, and multimedia presentations in Basic Electronics, Electronic Communication, Signal Processing, Data Communication, Digital Electronics.
+
+Helped students to achieve target grades through continuous curricular support and motivation.
+
+Developed multidisciplinary approaches to education, ensuring high-quality teaching, research and student experiences.
 
 - Publication Officer	@ Bharat Electronics Ltd, Bengaluru, Karnataka, India	- Dec 2015 to Jan 2018
--	Developed detailed, accurate technical content and publications for electronic systems, programs and services in defence projects of Indian Navy and performed editing, proofreading, maintenance of a library of technical terminology and documentation. 
+
+Developed detailed, accurate technical content and publications for electronic systems, programs and services in defence projects of Indian Navy and performed editing, proofreading, maintenance of a library of technical terminology and documentation. 
 
 ## KEY SKILLS
  
