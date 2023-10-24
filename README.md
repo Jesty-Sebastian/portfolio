@@ -65,11 +65,14 @@ Developed detailed, accurate technical content and publications for electronic s
  
 ## EDUCATION & QUALIFICATIONS
 - MSc. Data Science 	 
-- Manchester Metropolitan University, Manchester, UK				Sep 2023 (75% expected)
+
+Manchester Metropolitan University, Manchester, UK				Sep 2023 (75% expected)
 - MSc. Electaonics	
-- BPC College Piravom, MG University, Ernakulam, Kerala, India	July 2014 (70.25%)
+
+BPC College Piravom, MG University, Ernakulam, Kerala, India	July 2014 (70.25%)
 - BSc. Electronics	
-- College of Applied Science Thiruvambady, University of Calicut, Kerala, India	Mar 2012 (79.25%)
+
+College of Applied Science Thiruvambady, University of Calicut, Kerala, India	Mar 2012 (79.25%)
 
 ## ACHIEVEMENTS 
 -	Certification: Microsoft Office Specialist – Excel, Word, Power Point
