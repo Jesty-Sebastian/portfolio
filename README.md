@@ -4,6 +4,7 @@ Academic foundation spans IT, software and hardware troubleshooting, electronics
 
 ## EXPERIENCE
 - Information Technology Analyst	@ Digital Seva CSC, Thiruvambady, Kozhikode, Kerala, India -	Apr 2019 to Sep 2022
+
 Monitored and maintained the organization's IT infrastructure, including servers, networks, and workstations, to ensure optimal performance and uptime. 
 Investigated and resolved IT issues promptly, minimizing downtime and ensuring smooth operations. Developed effective troubleshooting procedures.
 Provided technical support to end-users, addressing hardware and software problems. Achieved a 95% customer satisfaction rate through efficient issue resolution and clear communication.
