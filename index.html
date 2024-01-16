@@ -1,0 +1,491 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>Jesty's realm of Data Science</title>
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		.badge-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+		}
+
+		.badge-item {
+			flex: 0 0 220px; 
+			margin-bottom: 10px;
+		}
+
+		.badge-item img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+		
+
+		#nav ul.links li {
+			margin: 0;
+		}
+		.skill-levels {
+			display: flex;
+			margin-top: 69px;
+			margin-left: 50px;
+			flex-direction: column;
+		}
+
+		.skill-levels p {
+			margin: 5px 0;
+		}
+		.boxed-btn3 {
+			background: #615C8B;
+			color: #fff;
+			display: inline-block;
+			padding: 1px 20px;
+			font-family: "Muli", sans-serif;
+			font-size: 16px;
+			font-weight: 500;
+			border: 0;
+			border: 2px solid transparent;
+			-webkit-border-radius: 0px;
+			-moz-border-radius: 0px;
+			border-radius: 0px;
+			text-align: center;
+			color: #fff !important;
+			text-transform: capitalize;
+			-webkit-transition: 0.5s;
+			-moz-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+			cursor: pointer;
+			margin-top: 37px;
+		}
+		body {
+		background-image: url('images/bg5.jpg');
+		  margin: 0;
+		  font-family: Times New Roman, sans-serif;	
+		  font-size: 20px;
+		  color: white;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  text-align: center;
+		}
+
+		top-section {
+		  height: 300px; /* Set the height of your top section */
+		  color: white;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  position: relative;
+		}
+		
+		#nav ul.links {
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			padding: 0;
+			}
+
+		
+		
+		#nav a {
+		  display: block;
+		  color: white;
+		  text-decoration: none;
+		  padding: 10px;
+		  
+		  transition: background-color 0.3s;
+		}
+		
+		
+
+		#mainn {
+			
+		  margin-left: 0px; /* Adjust margin to make space for the navigation */
+		  padding: 20px;
+		}
+		
+		#home {
+
+			margin-bottom: 60px; /* Adjust the margin to create space for the icons at the bottom */
+		}
+
+		.icons {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px; /* Add padding for spacing */
+			text-align: center;
+		}
+
+		.icons li {
+			display: inline-block;
+			margin: 0 10px; /* Adjust spacing between icons */
+		}
+		
+		.icons a {
+			color: #ffffff; /* Set the color to white (you can use any valid color code) */
+		}
+		
+		.inner h2 {
+			color: #fff; /* Set the color to black (you can use any valid color code) */
+		}
+		
+		#about header h2 {
+			color: #fff; /* Set the color to your desired hex code */
+		}
+		
+		#about skills h4{
+			color: #fff; /* Set the color to your desired hex code */
+		}
+
+
+		
+	</style>
+</head>
+<body class="is-preload"">
+	
+		
+	<!-- Main Content -->
+	<div id="mainn">
+		<!-- Navigation Buttons -->
+		<nav id="nav">
+			<ul class="links">
+			  <li><a href="#" onclick="showSection('home')">HOME</a></li>
+			  <li><a href="#" onclick="showSection('about')">ABOUT</a></li>
+			  <li><a href="#" onclick="showSection('skills')">SKILLS</a></li>
+			  <li><a href="#" onclick="showSection('EDUCATION')">EDUCATION</a></li>
+			  <li><a href="#" onclick="showSection('EXPERIENCE')">EXPERIENCE</a></li>
+			  <li><a href="#" onclick="showSection('PROJECTS')">PROJECTS</a></li>
+			  <li><a href="#" onclick="showSection('certifications')">CERTIFICATIONS</a></li>
+			</ul>
+		</nav>
+		<!-- About Section -->
+			<section id="home">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/Jesty.jpg" alt="" style="height: 221px; border-radius: 50%;"/></a>
+					
+					<h2>Hi, I'm Jesty Sebastian!</h2>
+					<p>
+						Welcome to my data-driven realm, where curiosity meets insights and innovation. 
+						<p>This is my portfolio, a curated collection showcasing my passion for uncovering valuable insights through the lens of data.<br>
+						As a dedicated data enthusiast, I thrive on making meaningful contributions through in-depth analysis and creative problem-solving. 
+						<p>Explore my projects, delve into my skills, and join me on this exciting journey of discovery!<br>
+						
+				
+				</div>
+				<div style="margin: -18em 60em">
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/my_data_sketchbook/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.linkedin.com/in/jesty-sebastian-5b2442191/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/Jesty-Sebastian" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					</ul>
+				</div>
+
+			
+			</section>
+
+		<!-- Home Section -->
+		<section id="about">
+			<!-- Your existing home section content -->
+			<header class="major">
+				<h2>ABOUT ME<br /></h2>
+			</header>
+			
+			<p>
+				A results-driven Data Analyst with expertise in machine learning, data science, and IT analysis. Background in technical writing, professional teaching, and over three years of experience in IT analysis, recently completed Master's Degree in Data Science at Manchester Metropolitan University. </p>
+			<p>
+				Academic foundation spans IT, software and hardware troubleshooting, electronics, computer science, mathematics, and statistics. Excel in data-driven projects, leveraging programming languages like C#, SQL, Python and R, along with popular data science libraries like TensorFlow, PyTorch, and scikit-learn. Proficient in data visualization, data pre-processing, feature engineering, and model evaluation. Dedicated to providing valuable insights and facilitating well-informed decision-making through data analysis.
+			
+			
+			
+		</section>
+
+		
+
+
+		<!-- Skills Section -->
+		<section id="skills">
+			<!-- Your skills section content -->
+			<div class="text-center">
+				
+				<div class="container">
+					<div class="row skillbar-wraps">
+						<div class="col-lg-4 skill-left">
+							<h4 class="text-center pt-50"> Software Skills            </h4>               
+							<p></p>
+							<div class="single-skill">
+								 C# -   5
+								<div data-width="100" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;"><div class="sb_bar" style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);"><div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div></div></div>
+							</div>
+							<p></p>
+							<div class="single-skill">
+								Python -   4
+								<div class="skill sb_progress" data-width="80" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;"><div class="sb_bar" style="position: absolute; width: 80%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);"><div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div></div></div>
+							</div>
+							<p></p>
+							<div class="single-skill">
+								SQL - 4
+								<div class="skill sb_progress" data-width="60" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;"><div class="sb_bar" style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);"><div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div></div></div>
+							</div>
+						</div>
+						<div class="col-lg-4 skill-right">
+							<h4 class="text-center pt-50">Machine Learning         </h4>
+							<p></p>
+						<div class="single-skill">
+							Data Modeling - 5
+							<div class="skill sb_progress" data-width="100" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
+								<div class="sb_bar" style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
+									<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
+								</div>
+							</div>
+						</div>
+						<p></p>
+						<div class="single-skill">
+							TensorFlow - 4
+							<div class="skill sb_progress" data-width="80" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
+								<div class="sb_bar" style="position: absolute; width: 80%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
+									<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
+								</div>
+							</div>
+						</div>
+						<p></p>
+						<div class="single-skill">
+							Big Data - 4
+							<div class="skill sb_progress" data-width="80" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
+								<div class="sb_bar" style="position: absolute; width: 80%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
+									<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
+								</div>
+							</div>
+						</div>
+						</div>
+
+						<div class="col-lg-4 skill-right">
+							<h4 class="text-center pt-50"> Data Analytics </h4>
+							<p></p>
+							<div class="single-skill">
+								Exploratory data analysis (EDA) - 5
+								<div class="skill sb_progress" data-width="100" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
+									<div class="sb_bar" style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
+										<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
+									</div>
+								</div>
+							</div>
+							<p></p>
+							<div class="single-skill">
+								Statistical Methods - 4
+								<div class="skill sb_progress" data-width="80" style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 5px;">
+									<div class="sb_bar" style="position: absolute; width: 80%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
+										<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
+									</div>
+								</div>
+							</div>
+
+							<p></p>
+							<div class="single-skill">
+								Visualization (PowerBI) - 3
+								<div class="skill sb_progress" data-width="60" style="position: relative; width: 100%; background-color: lightblue; height: 5px;">
+									<div class="sb_bar" style="position: absolute; width: 60%; height: 100%; background-image: linear-gradient(to left, #1e90ff, #00bfff, #87ceeb);">
+										<div class="sb_label" style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="skill-levels">
+					<p> 01 - Basic</p>
+					<p>2 - Novice</p>
+					<p>3 - Intermediate</p>
+					<p>4 - Advanced</p>
+					<p>5 - Expert</p>
+				</div>
+					</div>
+				</div>
+		</section>
+
+		<!-- Education Section -->
+		<section id="EDUCATION">
+			<!-- Your existing education section content -->
+					
+					<h2>EDUCATION<br /></h2>
+					<p>
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Qualification</span></h3>
+						M.Sc.Data Science (2022 - 2023)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Institution</span></h3>
+						Manchester Metropolitan University, UK<br>
+						<h3 class="icon solid fa-medal" style="display: inline-block;"><span class="label">Mark</span></h3>
+						Passed with Distinction (80%)<br><br></br>
+						
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Qualification</span></h3>
+						MSc. Electronics (2012 - 2014)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> 
+						BPC College, Piravom, India<br>
+						<h3 class="icon solid fa-medal" style="display: inline-block;"><span class="label">Mark</span></h3>
+						Passed with Distinction (70%)<br><br></br>	
+
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Qualification</span></h3>
+						BSc. Electronics (2009 - 2012)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> 
+						College of Applied Science, Thiruvambady, India<br>
+						<h3 class="icon solid fa-medal" style="display: inline-block;"><span class="label">Mark</span></h3>
+						Passed with Distinction (79%)<br><br></br>	
+						<br>						
+						
+						
+					</p>
+							
+		</section>
+		
+		<!-- Experience Section -->
+		<section id="EXPERIENCE">
+			<!-- Your existing experience section content -->
+					
+					
+					<p>
+						<h3 class="icon fa-user" style="display: inline-block;"><span class="label">Role</span></h3>
+						Financial Data Analyst (3 Years)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3>
+						Kerala State Financial Enterprises Limited, Thiruvambady, India
+						<br></br>
+						
+						<h3 class="icon fa-user" style="display: inline-block;"><span class="label">Role</span></h3>
+						Data Analyst (4 Months)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3>
+						Digital Seva CSC, India
+						<br></br>
+						
+						<h3 class="icon fa-user" style="display: inline-block;"><span class="label">Role</span></h3>
+						Assistant Professor (1 Year)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> 
+						College of Applied Science, Thiruvambady, India
+						<br></br>	
+
+						<h3 class="icon fa-user" style="display: inline-block;"><span class="label">Role</span></h3>
+						Technical Writer (2 Years)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> 
+						Bharat Electronics, Bengaluru, India
+						<br></br>	
+						<br>						
+						
+						
+					</p>
+							
+		</section>
+		
+		<!-- Projects Section -->
+		<section id="PROJECTS">
+			<!-- Your existing experience section content -->
+					
+				<div class="projects">	
+					
+						<div class="project-card" onclick="window.open('https://github.com/Jesty-Sebastian/THE-EFFECT-OF-HAIR-ARTIFACTS-ON-SKIN-IMAGE-DATASETS', '_blank');">
+							<h2 class="project-title"  style="font-size: 25px;    color: white;">Effect of hair artifacts in skin image dataset</h2>
+							<img src="images/Skin.png" alt="" style="height: 360px;width:600px"/>
+							<p class="project-description" style="font-size: 18;   line-height: 1;color: fff;">An in-depth investigation into the impact of hair artifacts in skin images utilized for melanoma detection,including the necessity of employing hair removal techniques for images.</p>
+						</div>
+						
+						<div class="project-card" onclick="window.open('https://github.com/Jesty-Sebastian/Machine-Learning-Model-for-Car-Price-Prediction', '_blank');">
+							<h2 class="project-title"  style="font-size: 25px;    color: white;">Car Price Prediction System using advanced Machine Learning Models</h2>
+							<img src="images/Car.jpg" alt="" style="height: 360px;width:600px"/>
+							<p class="project-description" style="font-size: 18px;   line-height: 1;color: fff;">Conducted an academic mini project focused on predicting prices for both new and used cars. Explored various regression models, assessing their accuracy in prediction. Analyzed the importance of different features to understand their impact on car prices. Implemented cross-validation techniques to ensure the reliability of the models.</p>
+						</div>
+						
+						<div class="project-card" onclick="window.open('https://github.com/Jesty-Sebastian/Deep-Learning-for-Accurate-Brain-Tumor-Classification-A-Comprehensive-Study-and-Model-Development', '_blank');">
+							<h2 class="project-title"  style="font-size: 25px;    color: white;">Brain Tumour Classification</h2>
+							<img src="images/Tumor.jpg" alt="" style="height: 360px;width:600px"/>
+							<p class="project-description" style="font-size: 18px;   line-height: 1;color: fff;">Unleashing the Potential of Deep Learning for Accurate Brain Tumour Classification: A Comprehensive Study and Model Development</p>
+						</div>	
+
+						<div class="project-card" onclick="window.open('https://github.com/Jesty-Sebastian/Exploring-Seasonal-Patterns-and-the-Impact-of-Temperature-on-Cycle-Hire-Usage-in-London-during-2014', '_blank');">
+							<h2 class="project-title"  style="font-size: 25px;    color: white;">Big Data Analysis using Spark</h2>
+							<img src="images/big-data.jpg" alt="" style="height: 360px;width:600px"/>
+							<p class="project-description" style="font-size: 18px;   line-height: 1;color: fff;">Exploring Seasonal Patterns and the Impact of Temperature on Cycle Hire Usage in London during 2014</p>
+						</div>
+						
+						<div class="project-card" onclick="window.open('https://github.com/Jesty-Sebastian/Exploring-Performance-of-CUDA-and-MPI-Implementations-for-Quadrature-Estimation', '_blank');">
+							<h2 class="project-title"  style="font-size: 25px;    color: white;">Big Data Analysis using Spark</h2>
+							<img src="images/HPC.jpg" alt="" style="height: 360px;width:600px"/>
+							<p class="project-description" style="font-size: 18px;   line-height: 1;color: fff;">Exploring Performance of CUDA and MPI Implementations for Quadrature Estimation</p>
+						</div>
+		
+				</div>
+							
+		</section>
+
+		<!-- Certifications Section -->
+		<section id="certifications">
+						<h2 class="mb-10">BADGES</h2>
+							<div class="badge-container">
+								<div class="badge-item">
+									<a href="https://www.credly.com/badges/2c6e9212-5cc3-4644-9cb7-f8cca7b502be" target="_blank">
+										<img src="https://images.credly.com/size/340x340/images/4136ced8-75d5-4afb-8677-40b6236e2672/azure-ai-fundamentals-600x600.png" alt="Badge Image" />
+									</a>
+								</div>
+								<div class="badge-item">
+									<a href="https://www.credly.com/badges/0b0270ba-084a-486a-8069-22becfbc2182" target="_blank">
+										<img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Badge Image" />
+									</a>
+								</div>
+								<div class="badge-item">
+									<a href="https://www.credly.com/badges/2316eed2-f0e6-4318-8a24-e3d24c6fa9d2" target="_blank">
+										<img src="https://images.credly.com/size/340x340/images/5df82cee-c54c-4006-b17d-ff9a5127beeb/image.png" alt="Badge Image" />
+									</a>
+								</div>
+								<div class="badge-item">
+									<a href="https:https://www.credly.com/badges/1c83486a-da74-4510-bde9-b87ecc093c52" target="_blank">
+										<img src="https://images.credly.com/size/340x340/images/b9912ce7-7c17-40bc-afbb-ca4251ea1416/MOS_Word.png" alt="Badge Image" /> </a>
+								</div>
+								<div class="badge-item">
+									<a href="https://www.credly.com/badges/0e528d72-5d7a-4b35-ae41-f4da74d28048" target="_blank">
+										<img src="https://images.credly.com/size/340x340/images/af151b3d-9453-48a8-8d22-5b9fc54d2b43/image.png" alt="Badge Image" />
+									</a>
+								</div>
+								<div class="badge-item">
+									<a href="https://www.credly.com/badges/86ec81d4-0c79-4686-9d04-46e1fefe6ffc" target="_blank">
+										<img src="https://images.credly.com/size/340x340/images/48efb29e-31ed-414f-899e-088197b10be7/image.png" alt="Badge Image" />
+									</a>
+								</div>
+								<div class="badge-item">
+									<a href="https://www.cloudskillsboost.google/public_profiles/d31c2af9-0686-442a-8f23-1448bffb0e1c/badges/4607959?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share" target="_blank">
+										<img src="https://cdn.qwiklabs.com/uehm6AXjibx%2Fiv0KiH9QnBXSoFmeRyLMAQt35WsCttE%3D" alt="Badge Image" />
+									</a>
+								</div>
+							</div>
+							<div style="height:105px"></div>
+							
+					<h2>CERTIFICATIONS</h2>
+						<div class="row">
+							
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/da.jpg" class="image fit thumb"><img src="images/fulls/ARCHER.jpg" alt="" /></a>
+								<span>High Performance Computing- Archer 2</span>
+							</article>
+						</div>
+
+		</section>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+	$(document).ready(function () {
+			$('section').hide();
+			// Show the selected section
+			$('#home').show();
+	});
+		function showSection(sectionId) {
+			// Hide all sections
+			$('section').hide();
+			// Show the selected section
+			$('#' + sectionId).show();
+		}
+	</script>
+</body>
+</html>
