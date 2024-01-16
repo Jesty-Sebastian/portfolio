@@ -9,7 +9,7 @@
 		.badge-container {
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-between;
+			justify-content: flex-start;
 		}
 
 		.badge-item {
@@ -22,12 +22,7 @@
 			height: auto;
 			display: block;
 		}
-		#nav ul.links {
-			list-style: none;
-			display: flex;
-			justify-content: space-around;
-			padding: 0;
-			}
+		
 
 		#nav ul.links li {
 			margin: 0;
@@ -65,35 +60,128 @@
 			cursor: pointer;
 			margin-top: 37px;
 		}
+		body {
+		background-image: url('images/bg4.jpg');
+		  margin: 0;
+		  font-family: Times New Roman, sans-serif;	
+		  font-size: 20px;
+		  color: #fff;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  text-align: center;
+		}
+
+		top-section {
+		  height: 300px; /* Set the height of your top section */
+		  
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  position: relative;
+		}
+		
+		#nav ul.links {
+			list-style: none;
+			display: flex;
+			justify-content: space-around;
+			padding: 0;
+			}
+
+		
+		
+		#nav a {
+		  display: block;
+		  color: white;
+		  text-decoration: none;
+		  padding: 10px;
+		  
+		  transition: background-color 0.3s;
+		}
+		
+		
+
+		#mainn {
+
+		  margin-left: 0px; /* Adjust margin to make space for the navigation */
+		  padding: 20px;
+		}
+		
+		#home {
+
+			margin-bottom: 60px; /* Adjust the margin to create space for the icons at the bottom */
+		}
+
+		.icons {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px; /* Add padding for spacing */
+			text-align: center;
+		}
+
+		.icons li {
+			display: inline-block;
+			margin: 0 10px; /* Adjust spacing between icons */
+		}
+		
+		.icons a {
+			color: #ffffff; /* Set the color to white (you can use any valid color code) */
+		}
+		
+		.inner h2 {
+			color: #fff; /* Set the color to black (you can use any valid color code) */
+		}
+		
+		#about header h2 {
+			color: #fff; /* Set the color to your desired hex code */
+		}
+		
+		#about skills h4{
+			color: #fff; /* Set the color to your desired hex code */
+		}
+
+
+		
 	</style>
 </head>
 <body class="is-preload"">
+	
+		
 	<!-- Main Content -->
 	<div id="mainn">
 		<!-- Navigation Buttons -->
 		<nav id="nav">
 			<ul class="links">
-				<li><a href="#" onclick="showSection('home')">Home</a></li>
-				<li><a href="#" onclick="showSection('about')">About</a></li>
-				<li><a href="https://ansababy.medium.com/" target="_blank">Blog</a></li>
-				<li><a href="#" onclick="showSection('projects')">Skills</a></li>
-				<li><a href="#" onclick="showSection('EDUCATION')">Education</a></li>
-				<li><a href="#" onclick="showSection('certifications')">Certifications</a></li>
+			  <li><a href="#" onclick="showSection('home')">HOME</a></li>
+			  <li><a href="#" onclick="showSection('about')">ABOUT</a></li>
+			  <li><a href="#" onclick="showSection('skills')">SKILLS</a></li>
+			  <li><a href="#" onclick="showSection('EDUCATION')">EDUCATION</a></li>
+			  <li><a href="#" onclick="showSection('EXPERIENCE')">EXPERIENCE</a></li>
+			  <li><a href="#" onclick="showSection('PROJECTS')">PROJECTS</a></li>
+			  <li><a href="#" onclick="showSection('certifications')">CERTIFICATIONS</a></li>
 			</ul>
 		</nav>
-		
 		<!-- About Section -->
 			<section id="home">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/4.jpg" alt="" style="height: 221px;"/></a>
-					<h2><strong>Bonjour!<br> I am Ansa Baby </strong> <br> I'm excited to present my portfolio filled with data-driven discoveries.  <br/></h2>
+					<a href="#" class="image avatar"><img src="images/Jesty.jpg" alt="" style="height: 221px; border-radius: 50%;"/></a>
+					
+					<h2>Hi, I'm Jesty Sebastian!</h2>
+					<p>
+						Welcome to my data-driven realm, where curiosity meets insights and innovation. 
+						<p>This is my portfolio, a curated collection showcasing my passion for uncovering valuable insights through the lens of data.<br>
+						As a dedicated data enthusiast, I thrive on making meaningful contributions through in-depth analysis and creative problem-solving. 
+						<p>Explore my projects, delve into my skills, and join me on this exciting journey of discovery!<br>
+						
+				
 				</div>
 				<div style="margin: -18em 60em">
 					<ul class="icons">
-						<li><a href="https://www.instagram.com/thedataartistry/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://ansababy.medium.com/" target="_blank" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
-						<li><a href="https://www.linkedin.com/in/ansababy/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/AnsaBaby" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.instagram.com/my_data_sketchbook/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.linkedin.com/in/jesty-sebastian-5b2442191/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/Jesty-Sebastian" class="icon brands fa-github"><span class="label">Github</span></a></li>
 					</ul>
 				</div>
 
@@ -119,9 +207,9 @@
 		
 
 
-		<!-- Projects Section -->
-		<section id="projects">
-			<!-- Your existing projects section content -->
+		<!-- Skills Section -->
+		<section id="skills">
+			<!-- Your skills section content -->
 			<div class="text-center">
 				
 				<div class="container">
@@ -207,7 +295,7 @@
 							</div>
 						</div>
 						<div class="skill-levels">
-					<p>1 - Basic</p>
+					<p> 01 - Basic</p>
 					<p>2 - Novice</p>
 					<p>3 - Intermediate</p>
 					<p>4 - Advanced</p>
@@ -217,25 +305,98 @@
 				</div>
 		</section>
 
-		<!-- Experience Section -->
+		<!-- Education Section -->
 		<section id="EDUCATION">
-			<!-- Your existing experience section content -->
-					<!-- Your existing certifications section content -->
+			<!-- Your existing education section content -->
+					
 					<h2>EDUCATION<br /></h2>
 					<p>
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Qualification</span></h3>
+						M.Sc.Data Science (2022 - 2023)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Institution</span></h3>
+						Manchester Metropolitan University, UK<br>
+						<h3 class="icon solid fa-medal" style="display: inline-block;"><span class="label">Mark</span></h3>
+						Passed with Distinction (80%)<br><br></br>
+						
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Qualification</span></h3>
+						MSc. Electronics (2012 - 2014)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> 
+						BPC College, Piravom, India<br>
+						<h3 class="icon solid fa-medal" style="display: inline-block;"><span class="label">Mark</span></h3>
+						Passed with Distinction (70%)<br><br></br>	
+
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Qualification</span></h3>
+						BSc. Electronics (2009 - 2012)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> 
+						College of Applied Science, Thiruvambady, India<br>
+						<h3 class="icon solid fa-medal" style="display: inline-block;"><span class="label">Mark</span></h3>
+						Passed with Distinction (79%)<br><br></br>	
+						<br>						
+						
+						
+					</p>
+							
+		</section>
+		
+		<!-- Experience Section -->
+		<section id="EXPERIENCE">
+			<!-- Your existing experience section content -->
+					
+					<h2>EXPERIENCE<br /></h2>
+					<p>
+						<h3 class="icon fa-user" style="display: inline-block;"><span class="label">Role</span></h3>
+						IT Analyst (3 Years)<br>
 						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3>
- 						Manchester Metropolitan University,UK<br>
-						Passed with Distinction (80%)
-						<br>
-						M.Sc.Data Science, 2022-2023<br><br></br>
-						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> BPC College, Piravom, India<br>
-						Passed with Distinction (70%)	
+						Digital Seva CSC, India
+						<br></br>
+						
+						<h3 class="icon fa-user" style="display: inline-block;"><span class="label">Role</span></h3>
+						Assistant Professor (1 Year)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> 
+						College of Applied Science, Thiruvambady, India
+						<br></br>	
+
+						<h3 class="icon fa-user" style="display: inline-block;"><span class="label">Role</span></h3>
+						Technical Writer (2 Years)<br>
+						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> 
+						Bharat Electronics, Bengaluru, India
+						<br></br>	
 						<br>						
-						MSc. Electronics, 2012-2014
-						<h3 class="icon solid fa-home" style="display: inline-block;"><span class="label">Address</span></h3> College of Applied Science, Thiruvambady, India<br>
-						Passed with Distinction (79%)	
+						
+						
+					</p>
+							
+		</section>
+		
+		<!-- Projects Section -->
+		<section id="PROJECTS">
+			<!-- Your existing experience section content -->
+					
+					<h2>PROJECTS<br /></h2>
+					<p>
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Role</span></h3>
+						Effect of hair artifacts in skin image dataset<br>
+						An in-depth investigation into the impact of hair artifacts in skin images utilized for melanoma detection, <br>including the necessity of employing hair removal techniques for images.
+						<br></br>
+						
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Role</span></h3>
+						Car Price Prediction System using advanced Machine Learning Models
+						<br></br>	
+
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Role</span></h3>
+						Unleashing the Potential of Deep Learning for Accurate Brain Tumour Classification: A Comprehensive Study and Model Development
+						<br></br>	
+						
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Role</span></h3>
+						Exploring Performance of CUDA and MPI Implementations for Quadrature Estimation
+						<br></br>	
+						
+						<h3 class="icon solid fa-pencil-alt" style="display: inline-block;"><span class="label">Role</span></h3>
+						Exploring Seasonal Patterns and the Impact of Temperature on Cycle Hire Usage in London during 2014
+						<br></br>	
+						
 						<br>						
-						BSc. Electronics, 2009-2012
+						
 						
 					</p>
 							
@@ -286,7 +447,7 @@
 						<div class="row">
 							
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/da.jpg" class="image fit thumb"><img src="images/thumbs/da.jpg" alt="" /></a>
+								<a href="images/fulls/da.jpg" class="image fit thumb"><img src="images/fulls/ARCHER.jpg" alt="" /></a>
 								<span>High Performance Computing- Archer 2</span>
 							</article>
 						</div>
